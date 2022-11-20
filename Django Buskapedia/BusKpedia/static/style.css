@@ -1,0 +1,217 @@
+.corpo {
+    background: linear-gradient(#45cf0e, #99762c);
+    width: 100%;
+    height: 800px;
+}
+
+.cabecario {
+    width: 1080px;
+    padding: 20px 0px 0px 27%;
+    transition: 800ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.section1 {
+    width: 1080px;
+    padding: 50px 0px 0px 27%;
+}
+
+.section2{
+    width: 1080px;
+    padding: 0px 0px 0px 27%;
+}
+
+.titulo1, .titulo2, .titulo3, .titulo4{ 
+    display: inline-block;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #fff; /* cor da borda */
+    -webkit-text-fill-color: #99762c;
+}
+
+.titulo2 {    
+    transform: rotate(333deg);
+    font-size: 120px;
+}
+
+.titulo3 {
+    padding: 0px 0px 0px 10px;
+}
+
+.cabecario:hover {
+    transform: scale(1.2);
+}
+
+.titulo2:hover {
+    transform: rotate(333deg);
+}
+
+.meio1 {
+    display: inline-block;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.frase {    
+    font-size: 20px;
+    color: #99762c;
+}
+
+.meio2 {
+    width: 50%;
+    display: inline-block;
+    padding: 10px 0px 0px 0px;
+}
+
+form label {
+    padding: 0px 0px 0px 4%;
+    display: block;
+    text-align: center;
+}
+
+.input-padrao {
+    display: block;
+    position: relative;
+    left: 16%;
+    margin: 10px 0 15px;
+    padding: 10px 25px;
+    width: 64%;
+    border-radius: 20px;
+}
+
+.enviar {
+    display: block;
+    position: relative;
+    left: 33%;
+    width: 37%;
+    padding: 5px;
+    background: #99762c;
+    color: #45cf0e;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    transform: scale(1.2);
+}
+
+.icones {
+    width: 1080px;
+    padding: 10% 0% 0% 27%
+}
+
+.icones_caixa {
+    padding: 0% 0% 0% 0%;
+    text-align: center;
+    width: 51%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .fa-facebook {
+    display: inline-flex;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: #12185f;
+    color: #f1f1f1;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    transition: 600ms;
+}
+
+a .fa-instagram {
+    display: inline-flex;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(130deg, blue 0%, rgb(117, 25, 64) 30%, rgb(117, 25, 64) 46%, red 64%, orange 83%);
+    color: #f1f1f1;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    transition: 600ms;
+}
+
+a .fa-linkedin {
+    display: inline-flex;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: #818db6;
+    color: #f1f1f1;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    transition: 600ms;
+}
+
+a .fa-github {
+    display: inline-flex;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    transition: 600ms;
+}
+
+a .fa-youtube{
+    display: inline-flex;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: #b80808;
+    color: #f1f1f1;
+    margin: 0 6px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: 600ms;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-github:hover, .fa-youtube:hover{
+    transform: scale(1.2);
+    background: #808080;
+    
+}
+
+.main2 {
+    padding: 20px;
+}
+
+.divisao {
+    padding: 1% 0% 0% 10%;
+}
+
+.reducao {
+    font-size: 26px;
+    padding: 0px 0px 5px 0px;
+}
+
+.clique {
+    font-size: 14px;
+}
+
+

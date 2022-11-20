@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Buskapédia</title>
+        <link rel="icon" href="{% static 'lupa.ico' %}">
+        <link rel="stylesheet" href="{% static 'reset.css' %}">
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        <script src="https://kit.fontawesome.com/d8ca735f25.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body class="corpo">
+        
+        <header>
+            <div class="cabecario">
+                <h1 class="titulo1">Bus</h1><h1 href="" class="titulo2">K</h1><h1 class="titulo3">pédia</h1><h1 class="titulo4"> &#128269;</h1>
+            </div>
+        </header>
+        <main>
+            <section class="section1">
+                <div class="meio1">
+                    <h2 class="frase">Este site, extrai links anexados em paginas da wikipédia</h2>
+                </div>
+            </section>
+            <section class="section2">
+                <form action="{% url 'index' %}" method="POST" class="meio2" >
+                    {% csrf_token %}
+                    <label for="cola_link">Cole aqui o link da wikipédia</label>
+                    <input type="text" id="cola_link" class="input-padrao" name="input_link" 
+                    required placeholder="Exemplo... https://pt.wikipedia.org/wiki/Django_(framework_web)">
+
+                    <input type="submit" value="Da um Buskpédia &#128269;" class="enviar">
+                </form>
+                <div class="divisao">
+                    <h3 class="clique">Url inválida!<br />Insira uma url do Wikipédia válida <br />Exemplo... https://pt.wikipedia.org/wiki/Django_(framework_web) <br /><br />Ou para entender melhor o BusKpédia <br /> Clique no icone do Youtube logo a baixo e assita o tutorial </h3>
+        </main>
+        <footer>
+            <div class="icones">
+                <div class="icones_caixa">
+                    <a href="https://www.facebook.com/jeffersoneres" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jefferson_neres_/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <a href="https://www.linkedin.com/in/jefferson-neres-577106223/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/JeffersonNeres" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/watch?v=fLJ4NvPhzRs" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
