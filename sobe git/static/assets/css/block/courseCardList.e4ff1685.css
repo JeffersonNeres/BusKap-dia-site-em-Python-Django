@@ -1,0 +1,1 @@
+.card-list{display:flex;flex-direction:column;gap:1em}.card-list__item{width:100%}@media(min-width:600px){.card-list{flex-direction:row;flex-wrap:wrap}.card-list__item{width:48%}}@media(min-width:960px){.card-list__item{width:31%}}@media(min-width:1200px){.card-list__item{width:23%}}

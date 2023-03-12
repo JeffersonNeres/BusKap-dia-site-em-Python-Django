@@ -1,0 +1,94 @@
+body {
+    background-image: url("principal.jpg");
+    background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-image: url("principal3.jpg");
+        background-size: 1024px 750px;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-attachment: fixed;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url("principal3.jpg");
+        background-size: 600px 750px;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-attachment: fixed;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-image: url("principal3.jpg");
+        background-size: 400px 750px;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-attachment: fixed;
+    }
+
+}
+
+.enviado {
+    margin: 20px auto;
+    padding: 20px;
+    background: #2c62c5;
+    width: 380px;
+    height: auto;
+    border-radius: 15px;
+    color: #fff;
+    line-height: 1.6em;
+    position: relative;
+    margin-top: 30px;
+    font-size: 16px;
+
+}
+
+.enviado::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #2c62c5;
+    top: -20px; 
+    left: 20%;
+}
+
+@media screen and (max-width: 400px) {
+    .enviado {
+        margin: 20px auto;
+        padding: 20px;
+        background: #2c62c5;
+        width: 220px;
+        height: auto;
+        border-radius: 15px;
+        color: #fff;
+        line-height: 1.6em;
+        position: relative;
+        margin-top: 30px;
+        font-size: 16px;
+    
+    }
+    
+    .enviado::after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid #2c62c5;
+        top: -20px; 
+        left: 20%;
+    }
+
+}

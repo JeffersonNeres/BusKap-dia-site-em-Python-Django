@@ -1,0 +1,15 @@
+.categories__wrapper__cards{display:flex;flex-direction:column;width:48%;margin:.31em .31em 0 0;box-shadow:.31em .37em .87em .87em rgba(0,0,0,.04);background-color:#051d3b;font-size:1rem;border-radius:.5em;border:.03em solid #0d4d9c;padding:20px;transition:900ms}
+.categories__link--home{text-decoration:none}
+.categories__svg-wrapper--home{display:flex;height:40px;width:40px;align-items:center}
+.categories__link__text{font-size:.75rem}
+.categories__link__category-name{text-transform:uppercase;font-size:.8125rem}
+.categories__calls--home{margin-top:1.2em}
+.categories__calls__description--home{color:#e5f1ff;display:inline-block;font-size:.75rem;line-height:1.4;text-decoration:none}
+.categories__calls__description--home:hover{cursor:pointer;text-decoration:underline}
+
+.categories__wrapper__cards:hover {
+    transform: scale(1.2);
+}
+
+
+@media (min-width:1024px){.categories__wrapper__cards{width:32%}}
